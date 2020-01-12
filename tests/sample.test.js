@@ -11,6 +11,6 @@ describe('Get endpoint', () => {
       .get('/');
 
     expect(res.statusCode).toEqual(200);
-    expect(res.text).toContain('Super duper webpage');
+    expect(res.text).toContain('Super duper webpage failing test');
   });
 });
